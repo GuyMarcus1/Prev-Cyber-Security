@@ -10,7 +10,7 @@ class Doctor(Patient):
     password = ""
 
     # full initialize method
-    def __init__(self,fullName, id, age, height, 123weight, speciality, password):
+    def __init__(self,fullName, id, age, height, weight, speciality, password):
         super().__init__(fullName, id, age, height, weight)
         self.speciality = speciality
         self.isActive = True
